@@ -1,3 +1,3 @@
 <?php
-
+echo "wait wut";
 ?>
