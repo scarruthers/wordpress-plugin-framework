@@ -1,0 +1,31 @@
+// Wordpress Plugin Framework //
+// Version 1.0.0 //
+
+// License GPLv2 or Later (refer to COPYING) //
+
+/ Description /
+This is a basic framework / template designed for use with Wordpress (http://wordpress.org/) installations.
+The ultimate goal is to provide a starting point for web developers when it comes to creating new plugins.
+
+
+/ Included features /
+Some of the basic, included features (f = frontend, b = backend):
+  - functions for including stylesheets; f,b
+  - functions for including script files [.js files]; f,b
+  - jQuery library, including plugins:
+    - jQueryUI
+    - uploadify
+    - datepicker
+    - timepicker
+
+
+/ To-Do (a list to myself) /
+  - Fix plugin description
+
+/ Long-Term Plans /
+
+  - modifying the way scripts operate, particularly jQuery.  Most of the jQuery features do not need to be loaded on the
+      frontend, so loading those on the frontend is in fact a waste of space and time.  Also, make it more of a
+      'plug-and-play' system, perhaps with on/off switches or simple pre-defined constants
+  - adjusting the stylesheet system in a similar 'plug-and-play' fashion
+  - incorporate a template for submenus
