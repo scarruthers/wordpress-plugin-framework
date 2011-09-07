@@ -20,12 +20,16 @@ Some of the basic, included features (f = frontend, b = backend):
 
 
 / To-Do (a list to myself) /
-  - Fix plugin description
+  - Remove all previous plugin name references from index.php
+  - Allow for easy installation of more than one table upon activation (foreach loop)
 
-/ Long-Term Plans /
+/ Long-Term Goals /
 
   - modifying the way scripts operate, particularly jQuery.  Most of the jQuery features do not need to be loaded on the
       frontend, so loading those on the frontend is in fact a waste of space and time.  Also, make it more of a
       'plug-and-play' system, perhaps with on/off switches or simple pre-defined constants
   - adjusting the stylesheet system in a similar 'plug-and-play' fashion
   - incorporate a template for submenus
+  - provide functions in functions.php for a variety of purposes
+    -- e.g. creating forms, handling data, etc
+  - conversion to class based pages
